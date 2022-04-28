@@ -1,12 +1,15 @@
-import React from 'react';
-import './App.css';
+import * as React from 'react';
+import Homepage from "./containers/Homepage";
+import './styles/App.css';
+import './styles/column.css';
+import './styles/card.css';
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
-      Simple drag/drop
+      <Homepage />
     </div>
   );
-}
+};
 
 export default App;
